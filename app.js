@@ -602,181 +602,825 @@
 
 
 
-                                            // Javascript  Ass # 2
+//                                             // Javascript  Ass # 2
 
 
-                                            // Q1
+//                                             // Q1
 
-var userInput = prompt("Enter user input");
-userInput = userInput.toUpperCase();
-document.write(userInput);
-
-
+// var userInput = prompt("Enter user input");
+// userInput = userInput.toUpperCase();
+// document.write(userInput);
 
 
-                                           // Q2
-
-var a = prompt("Enter user input");
-var firstChar = a.slice(0,1);
-firstChar = firstChar.toUpperCase(); 
-var otherChar = a.slice(1);
-otherChar = otherChar.toLowerCase();
-var b = firstChar + otherChar;
-document.write(b);
 
 
-                                             // Q3
+//                                            // Q2
+
+// var a = prompt("Enter user input");
+// var firstChar = a.slice(0,1);
+// firstChar = firstChar.toUpperCase(); 
+// var otherChar = a.slice(1);
+// otherChar = otherChar.toLowerCase();
+// var b = firstChar + otherChar;
+// document.write(b);
 
 
-var a = prompt("Enter Your favorite mobile phone model");   
-var b = a.length;
-document.write("My favorite mobile phone is: " + a + "<br>" + "The length of str is: " + b);
+//                                              // Q3
+
+
+// var a = prompt("Enter Your favorite mobile phone model");   
+// var b = a.length;
+// document.write("My favorite mobile phone is: " + a + "<br>" + "The length of str is: " + b);
                                              
 
-                                           //  Q4
+//                                            //  Q4
                                                
                                                 
- var a = prompt("Enter user input");
- var lastChar = a.charAt(a.length-1);
-document.write(lastChar);
+//  var a = prompt("Enter user input");
+//  var lastChar = a.charAt(a.length-1);
+// document.write(lastChar);
  
 
 
                                                
-                                              //  Q5 
+//                                               //  Q5 
 
-var a = "Pakistani";
-var b = a.indexOf("n");
-document.write(b);
-
-
-
-
-                                                // Q6
-
-var userName = prompt("Enter your Input: ");
-var checkValidName = (username) => username.match(/[\@\.\,\!]/)===null;
-while (!checkValidName(userName)){
-    alert("please enter a valid userName");   
-    userName=prompt("Enter your Input: ");
-};
+// var a = "Pakistani";
+// var b = a.indexOf("n");
+// document.write(b);
 
 
 
 
+//                                                 // Q6
 
-
-                                            //  Q7
-
-
-var a = "The quick brown fox jumps over the lazy dog";
-var b =  a.indexOf("the");
-document.write(b);
+// var userName = prompt("Enter your Input: ");
+// var checkValidName = (username) => username.match(/[\@\.\,\!]/)===null;
+// while (!checkValidName(userName)){
+//     alert("please enter a valid userName");   
+//     userName=prompt("Enter your Input: ");
+// };
 
 
 
 
 
-                                               // Q8
+
+//                                             //  Q7
 
 
-var a = "Pakistani";
-var b = a.charAt(3);
-document.write(b);                                               
+// var a = "The quick brown fox jumps over the lazy dog";
+// var b =  a.indexOf("the");
+// document.write(b);
+
+
+
+
+
+//                                                // Q8
+
+
+// var a = "Pakistani";
+// var b = a.charAt(3);
+// document.write(b);                                               
                                             
 
 
 
 
-                                                // Q9
+//                                                 // Q9
 
 
-var a = "Hyderabad";
-var b = a.replace("Hyder","Islam");
-document.write(b);                                                
+// var a = "Hyderabad";
+// var b = a.replace("Hyder","Islam");
+// document.write(b);                                                
 
 
 
-                                               // Q10
+//                                                // Q10
      
-var message = "Ali and Sami are best friends. They play cricket and football together.";
-var b = message.replace(/and/g,"&")
-document.write(b)                 
+// var message = "Ali and Sami are best friends. They play cricket and football together.";
+// var b = message.replace(/and/g,"&")
+// document.write(b)                 
 
 
 
-                                                 // Q11
+//                                                  // Q11
 
 
-var a =  3.45214;
-var b = Math.round(a);
-var c = Math.floor(a);
-var d = Math.ceil(a);
-document.write(b + "<br>" + c + "<br>" + d);
-
-
-
-                                               // Q12
-
-
-var a =  -2.678;
-var b = Math.round(a);
-var c = Math.floor(a);
-var d = Math.ceil(a);
-document.write(b + "<br>" + c + "<br>" + d);                                           
+// var a =  3.45214;
+// var b = Math.round(a);
+// var c = Math.floor(a);
+// var d = Math.ceil(a);
+// document.write(b + "<br>" + c + "<br>" + d);
 
 
 
-                                                // Q13
+//                                                // Q12
 
 
-var a = Math.random()*6;
-a = Math.ceil(a);                                                
-document.write("dice value " + a)
+// var a =  -2.678;
+// var b = Math.round(a);
+// var c = Math.floor(a);
+// var d = Math.ceil(a);
+// document.write(b + "<br>" + c + "<br>" + d);                                           
 
 
 
-                                              // Q14
-
-var a = Math.random()*2;
-a = Math.ceil(a);
-if(a == 1){
-    document.write("Heads")
-}
-else{
-    document.write("Tails")
-}
+//                                                 // Q13
 
 
-                                                // Q15
+// var a = Math.random()*6;
+// a = Math.ceil(a);                                                
+// document.write("dice value " + a)
+
+
+
+//                                               // Q14
+
+// var a = Math.random()*2;
+// a = Math.ceil(a);
+// if(a == 1){
+//     document.write("Heads")
+// }
+// else{
+//     document.write("Tails")
+// }
+
+
+//                                                 // Q15
                                      
                                                 
-var a = prompt("Enter your weight");
-var b = Number(a);
-var c = parseFloat(a);
-document.write(b + "<br>" + c);
+// var a = prompt("Enter your weight");
+// var b = Number(a);
+// var c = parseFloat(a);
+// document.write(b + "<br>" + c);
 
 
-                                               // Q16
+//                                                // Q16
 
 
- var a = "472";
- var b = Number(a);
- document.write(b +" " + typeof(b) )
+//  var a = "472";
+//  var b = Number(a);
+//  document.write(b +" " + typeof(b) )
 
      
 
-                                                // Q17  
- var a = 35.36;
- var b = a.toString();
- b = b.replace(".","");
- document.write(b);
+//                                                 // Q17  
+//  var a = 35.36;
+//  var b = a.toString();
+//  b = b.replace(".","");
+//  document.write(b);
 
 
 
-                                              // Q 18
+//                                               // Q 18
                                               
                                               
-var percentage = 30 / 45 * 100;
-percentage = percentage.toFixed(2);
-document.write(percentage)                                             
+// var percentage = 30 / 45 * 100;
+// percentage = percentage.toFixed(2);
+// document.write(percentage)                                             
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  // Javascript  Ass # 3 
+                                  
+                                  
+                                 // Q1
+
+var a = new Date()
+document.write(a)
+
+
+                                // Q2
+
+
+
+var a = new Date()
+var b = a.getMonth()
+if(0 == b){
+  alert("Current mouth: January") 
+}
+
+else if(1 == b){
+    alert("Current mouth: February")
+}
+
+
+else if(2 == b){
+    alert("Current mouth: March")
+}
+
+
+else if(2 == b){
+    alert("Current mouth: Apirl")
+}
+
+
+else if(3 == b){
+    alert("Current mouth: May")
+}
+
+
+else if(4 == b){
+    alert("Current mouth: June")
+}
+
+
+else if(5 == b){
+    alert("Current mouth: July")
+}
+
+
+else if(6 == b){
+    alert("Current mouth: August")
+}
+
+
+else if(7 == b){
+    alert("Current mouth: September")
+}
+
+
+else if(8 == b){
+    alert("Current mouth: October")
+}
+
+
+else if(9 == b){
+    alert("Current mouth: November")
+}
+
+
+else if(10 == b){
+    alert("Current mouth: December")
+}
+
+
+                                    // Q3
+
+
+
+
+
+var a = new Date()
+var b = a.getDay()
+if(1 == b){
+    alert("Today is Sun")
+}
+
+else if(2 == b){
+    alert("Today is Mon")
+}
+
+else if(3 == b){
+    alert("Today is Tues")
+}
+
+else if(4 == b){
+    alert("Today is Wednes")
+}
+
+else if(5 == b){
+    alert("Today is Thurs")
+}
+
+else if(6 == b){
+    alert("Today is Fir")
+}
+
+else if(7 == b){
+    alert("Today is Satuar")
+}
+
+
+
+
+
+                                     // Q4
+
+
+
+
+var a = new Date();
+var day = a.getDay();
+switch (day) {
+    case 0: case 7:
+        document.write("Its Funday");
+        break;
+    case 1: case 2: case 3: case 4: case 5: case 6:
+        document.write("Its Borr Day");
+        break;
+}
+   
+
+
+
+
+
+                                      // Q5
+
+
+
+
+var a = new Date();
+var b = a.getDate();
+if(b<= 15){
+    document.write("First Fifteen Days Of the Month");
+}
+else{
+    document.write("Last Days Of the Month");
+}
+
+   
+
+
+
+                                         // Q6
+
+
+
+
+
+var time = new Date();
+document.write("Current Date : " + time + "<br>");
+document.write("Elapsed milliSeconds Since January 1, 1970 : " + time.getTime() + "<br>");
+document.write("Elapsed minuites Since January 1, 1970 : " + (time.getTime() / (1000 * 3600)));
+
+   
+
+
+
+
+                                     // Q7
+
+
+
+var a = new Date();
+var b = a.getHours();
+if (b >= 0 && b <= 12) {
+    alert("Its AM")
+}
+else{
+    alert("Its PM");
+}
+      
+
+
+ 
+                                       // Q8
+
+
+
+
+var a = new Date("December 31, 2020");
+document.write(a);
+                              
+                                       
+
+                                       // Q9
+
+
+
+
+
+var a = new Date("June 18, 2015");
+var b = new Date();
+var c = b - a;
+document.write((parseInt((c) / (1000 * 60 * 60 * 24))) + " days have passed since 1st Ramadan, 2015");
+
+
+
+
+
+                                        // Q10
+
+
+
+
+var a = new Date("2020");
+var b = new Date();
+var c = b - a;
+document.write(parseInt((c)/(1000 * 60)) + " seconds had passed since the beginning of 2020");
+
+
+
+
+ 
+
+                                        // Q11
+
+
+
+
+
+
+var a = new Date();
+document.write("Current Date : " + a + "<br>");
+a.setHours(a.getHours() - 1);
+document.write("1 hour ago, it was " + a);
+
+
+
+
+
+
+                                                // Q12
+
+
+
+
+var a = new Date();
+document.write("Current Date : " + a + "<br>");
+a.setFullYear(a.getFullYear() - 100);
+document.write("100 years back, it was " + a);
+
+
+
+
+
+
+                                            // Q13
+
+
+
+
+
+var a = window.prompt("Enter Your Age","Iam 18 years old");
+var b = new Date();
+var c = b.getFullYear() - a;
+document.write("Your Age Is : " + a + "<br>");
+document.write("Your Birth Year Is : " + c);
+
+
+
+
+
+
+                                           // Q14
+
+
+
+
+
+var name = window.prompt("Enter Your Name", "My name is");
+document.write("<h1> K-Electric Bill </h2> ");
+var units = 410;
+var charge = 16;
+var late = 350
+document.write("Customer Name : <b>" + name + "</b> <br>");
+document.write("Month : <b>June</b> <br>");
+document.write("Number Of Units : <b>" + units + "</b> <br>");
+document.write("Charge per Unit : <b>" + charge + " Pkr</b> <br>");
+var onDue = units * charge;
+document.write("<br>Net Amount Payable (within Due Date) Is : <b>" + Math.round(onDue) + "</b><br>");
+document.write("Late Payment Charger : <b>" + late + " </b> <br>")
+var notDue = onDue + late;
+document.write("Gross Amount Payable (after due date) Is : <b>" + Math.round(notDue) + "</b>");
+
+                                           
+
+
+
+
+
+
+                                            // Q14
+
+
+
+function date() {
+    var a = new Date();
+    document.write(a);
+}
+date();
+
+
+
+
+
+
+                                              // Q15
+
+
+
+
+
+function greet(f, l) {
+    var a = f + " " + l;
+    window.alert("Hello " + a);
+}
+var firstnAme = window.prompt("Enter Your First Name:");
+var lastnAme = window.prompt("Enter Your Last Name:");
+greet(firstnAme,lastnAme);
+
+
+
+
+
+
+
+                                        // Q16
+
+
+function addTwo(a1, b2) {
+    return a1 + b2;
+}
+var a = Number(window.prompt("Enter First Number"));
+var b = Number(window.prompt("Enter Second Number"));
+var c = addTwo(a, b);
+window.alert("Sum Of " +a + " and " + b + " Is : " + c);
+
+
+
+
+
+                                            // Q17
+
+
+
+
+
+function calculate(num1, operator, num2) {
+    if (operator === "+") {
+        return num1 + num2;
+    }
+    else if (operator === "-") {
+        return num1 - num2;
+    }
+    else if (operator === "*") {
+        return num1 * num2;
+    }
+    else if (operator === "/") {
+        return num1 / num2;
+    }
+    else if (operator === "%") {
+        return num1 % num2;
+    }
+    else {
+        return "Invalid";
+    }
+}
+var a = Number(window.prompt("Enter First Number"));
+var b = window.prompt("Enter Operator Number");
+var c = Number(window.prompt("Enter Second Number"));
+var d = calculate(a, b, c);
+window.alert(a + " " + b + " " + c + " = " + d);
+
+
+
+
+
+
+                                             // Q18
+
+
+
+
+
+function add(num) {
+    return Math.pow(num, 2);
+}
+var a = window.prompt("Enter Number");
+var b = add(a);
+window.alert("Square Of " + a + " is : " + b);
+
+                                             
+
+
+
+
+
+                                                 // Q19
+
+
+
+
+
+function first(num) {
+    var a = 1
+    for (var i = 1; i <= num; i++) {
+        a *= i
+    }
+    document.write("The Factorial Of " + num + " is : " + a);
+}
+var b = Number(window.prompt("Enter Number"));
+first(b);
+
+
+
+
+
+
+                                             // Q20
+
+
+
+
+
+
+function add(first, last) {
+    for (var i = first; i <= last; i++) {
+        document.write(i + " ");
+    }
+}
+
+var a = Number(window.prompt("Enter Start Number"));
+var b = Number(window.prompt("Enter Last Number"));
+add(a, b);
+
+
+                                             // Q21
+
+
+
+
+function first(b, p) {
+    function second(n) {
+        return Math.pow(n, 2);
+    }
+    return second(b) + second(p);
+}
+var base = Number(window.prompt("Enter Base"));
+var perpendicular = Number(window.prompt("Enter Perpendicular"));
+var calcu = first(base, perpendicular);
+document.write("Hypotenuse Is : " + calcu);
+
+
+
+
+
+
+                                         Q22
+
+
+
+
+
+
+function add(val1, val2) {
+    var x = val1 * val2;
+    window.alert("Area Of Reactangle Is : " + x);
+}
+var a = 23;
+var b = 81;
+add(3, 8); 
+add(a, b); 
+
+
+
+
+                                     // Q23
+
+
+
+
+
+function palindrome(str, num) {
+    var temp = "";
+    for (var i = num; i >= 0; i--) {
+        temp = temp + str[i]
+    }
+    if(temp === str){
+        document.write(str + " Is Palindrome");
+    }
+    else{
+        document.write(str + " Is Not Palindrome");
+    }
+}
+var pal = window.prompt("Enter Word");
+len = pal.length - 1;
+palindrome(pal, len);
+
+
+
+
+
+
+                                         // Q24
+
+
+
+
+
+
+function add(string = "") {
+    var split = string.toLowerCase().split(" ");
+    for (var i = 0; i < split.length; i++) {
+        split[i] = split[i].charAt(0).toUpperCase() + split[i].substring(1);
+    }
+    string = split.join(" ");
+    document.write(string);
+}
+var str = "the quick brown fox";
+add(str);
+
+
+
+
+
+                                        // Q25
+
+
+
+function first(str = "") {
+    var long = str.split(" ");
+    longestWord = 0;
+    store = "";
+    for (var i = 0; i < long.length; i++) {
+        if (long[i].length > longestWord) {
+            longestWord = long[i].length;
+            store = long[i]
+        }
+    }
+    document.write(store);
+}
+first("Web Development Tutorial");
+
+  
+
+
+
+
+
+                                             // Q26
+
+
+
+
+
+function Occurence(string = "", letter = "") {
+    var val = 0;
+    for (var i = 0; i < string.length; i++) {
+        if (string.slice(i, i + 1) === letter) {
+            val++;
+        }
+    }
+    document.write(letter + " appears " + val + " times");
+}
+
+Occurence("kumail", "m")
+
+
+
+
+
+
+
+
+                                      // Q27
+
+
+
+
+function calcCircumference(radius) {
+    var circumference = 2 * Math.PI * radius;
+    document.write("The Circumference Of Circle Is " + circumference.toFixed(2) + "<br>");
+}
+function calcArea(radius) {
+    var area = (Math.PI * Math.pow(radius,2));
+    document.write("The Area Of Circle Is " + area.toFixed(2));
+}
+calcCircumference(5);
+calcArea(4);
+
+
+
+
+
+
+
+
+                                          // Q28
+
+var num1=prompt("enter first number","");
+var power1=prompt("enter power","");
+function power(num1,power){
+    var res=Math.pow(num1,power)
+    document.write(res);
+}
+power(num1,power1);
+
+
+
+
